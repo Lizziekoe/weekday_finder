@@ -1,7 +1,7 @@
 @import url('http://fonts.googleapis.com/css?family=News+Cycle');
 
 body {
-  background: url(img/scrabble_board.jpg) no-repeat center center fixed;
+  background-image: repeating-linear-gradient(45deg, gray 0px, gray 25px, transparent 25px, transparent 50px, gray 50px);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

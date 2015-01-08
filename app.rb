@@ -8,5 +8,6 @@ end
 
 get('/results') do
   @word = params.fetch("date").weekday_finder()
+  @date = params.fetch("date")
   erb(:results)
 end
